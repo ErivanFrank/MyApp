@@ -9,10 +9,10 @@ app.use(bodyParser.json());
 
 var connection = mysql.createConnection({
 
-	host: 'localhost',
-	user: 'admin', 
-	password: '151887',
-	database: 'dbcontact'
+	host: 'https://nodejs-erivanapp.rhcloud.com/phpmyadmin/',
+	user: 'adminvau23zm', 
+	password: '3EjqPaW2Hsl9',
+	database: 'nodejs'
 
 });
 
